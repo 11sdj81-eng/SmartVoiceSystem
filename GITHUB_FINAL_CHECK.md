@@ -12,6 +12,18 @@ Canonical project path:
 
 This is the project prepared for GitHub sync.
 
+GitHub repository:
+
+```text
+https://github.com/11sdj81-eng/SmartVoiceSystem
+```
+
+Sync status:
+
+- Pushed to `main`
+- Canonical project commit: `3380112`
+- Remote was updated from `/Users/sudongjian/Projects/SmartVoiceSystem`
+
 The old project path is explicitly excluded:
 
 ```text
@@ -69,7 +81,7 @@ No files were read from, copied from, or staged from:
 - `.DS_Store`
 - logs and local media captures
 
-Before push, verify with `git status --short` that `.env`, virtual environments, caches, and local-only files are not staged.
+Verified before push: `.env`, virtual environments, caches, `.DS_Store`, and local-only files were not staged.
 
 ## 6. Resume Consistency
 
