@@ -1,0 +1,26 @@
+# ============================================================
+# 可视化智能语音交互控制系统 - MVP 依赖
+# ============================================================
+
+# GUI Framework
+PyQt5>=5.15.0
+
+# Speech Recognition (Faster-Whisper + PyAudio)
+faster-whisper>=1.0.0
+PyAudio>=0.2.11
+
+# Gesture Recognition (OpenCV Headless 避免和 faster-whisper 的 av 库冲突)
+opencv-python-headless>=4.10.0
+mediapipe>=0.10.30
+
+# Deep Learning Runtime
+torch>=2.0.0
+
+# Data Processing
+numpy>=1.24.0
+
+# HTTPS Certificate Bundle
+certifi>=2024.0.0
+
+# Environment Variables
+python-dotenv>=1.0.0
